@@ -594,7 +594,7 @@ margin on the iframe, cause it breaks stuff. */
     margin-right: 8px;
 }
 
-.subscribe-button {
+.nav-button {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -612,11 +612,17 @@ margin on the iframe, cause it breaks stuff. */
     border-radius: 3px;
     background: rgba(0,0,0,0.1);
     transition: all ease 0.3s;
+
+}
+
+.subscribe-button {
+ 
 }
 .subscribe-button:before {
     font-size: 9px;
     margin-right: 6px;
 }
+
 
 /* Special styles when overlaid on an image*/
 .main-nav.overlay {
@@ -633,8 +639,9 @@ margin on the iframe, cause it breaks stuff. */
 }
 .no-cover .main-nav.overlay,
 .no-cover .back-button,
-.no-cover .subscribe-button {
+.no-cover .nav-button {
     background: none;
+   
 }
 
 .main-nav.overlay a {
@@ -642,8 +649,9 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .main-nav.overlay .back-button,
-.main-nav.overlay .subscribe-button {
+.main-nav.overlay .nav-button {
     border-color: rgba(255,255,255,0.6);
+    margin-left: 10px;
 }
 
 .main-nav.overlay a:hover {
@@ -655,7 +663,7 @@ margin on the iframe, cause it breaks stuff. */
 
 /* Add a border to the buttons on hover */
 .back-button:hover,
-.subscribe-button:hover {
+.nav-button:hover {
     border-color: #bfc8cd;
     color: #9EABB3;
 }
@@ -695,7 +703,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .no-cover .main-nav.overlay .back-button,
-.no-cover .main-nav.overlay .subscribe-button {
+.no-cover .main-nav.overlay .nav-button {
     color: rgba(0,0,0,0.4);
     border-color: rgba(0,0,0,0.3);
 }
