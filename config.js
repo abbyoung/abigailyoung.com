@@ -10,7 +10,7 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'http://guarded-shelf-1674.herokuapp.com',
+        url: 'http://abigailyoung.com',
         fileStorage: false,
         mail: {},
         database: {
