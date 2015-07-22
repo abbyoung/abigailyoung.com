@@ -444,7 +444,9 @@ main {
 	width: 100%;
 	text-align: center;
 }
-
+.post__media img {
+	max-width: 60%;
+}
 .post__excerpt {
 	color: #777;
 	font-size: 13px;
