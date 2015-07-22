@@ -43,10 +43,6 @@
                             onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                             <span class="social__icon--hidden">Facebook</span>
                         </a>
-                        <a class="social__icon social__icon--gplus" href="https://plus.google.com/share?url={{url absolute="true"}}"
-                           onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-                            <span class="social__icon--hidden">Google+</span>
-                        </a>
                     </div>
                     
                     {{#if tags}}
@@ -72,9 +68,9 @@
                 </p>
             </aside>
 
-            <div class="post__comments">
+           {{!--  <div class="post__comments">
                 <div id="disqus_thread"></div>
-            </div>
+            </div> --}}
         {{/post}}
         </article>
     </div>
