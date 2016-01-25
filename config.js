@@ -11,7 +11,7 @@ config = {
                 url: process.env.BLOG_URL,
 
                 fileStorage: true,
-
+				// Use Postgres so it can live on Heroku
                 database: {
                     client: 'postgres',
                     connection: {
